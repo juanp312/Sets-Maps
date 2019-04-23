@@ -48,7 +48,7 @@ public class SolarSystem {
 
     @Override
     public final int hashCode() {
-        System.out.println("hashcode called");
+       // System.out.println("hashcode called");
         return this.name.hashCode() + 57 + this.type.hashCode();
     }
 
@@ -64,7 +64,7 @@ public class SolarSystem {
         ASTEROID,
         METEOR,
         COMET,
-        MOON
+        MOON,
     }
 }
 

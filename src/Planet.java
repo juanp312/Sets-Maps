@@ -1,3 +1,4 @@
+
 public class Planet extends SolarSystem {
     public Planet(String name, double period) {
         super(name, period, BodyType.PLANET);
